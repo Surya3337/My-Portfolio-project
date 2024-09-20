@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+        <header>
+            <div>
+        <h1>Welcome to My Portfolio</h1>
+        <a href="#About">
+            <button class="button">
+                About
+            </button>
+        </a>
+        <a href="#Skills">
+            <button class="button">
+                Skills
+            </button>
+        </a>
+        <a href="#Projects">
+            <button class="button">
+                Projects
+            </button>
+        </a>
+        <a href="#Contact">
+            <button class="button">
+                Contact
+            </button>
+        </a>
+    </div>
+    </header>
+</div>
+    
+    <main>
+        <section id="About">
+       <h1>About</h1>
+       <h1>Surya Eedula</h1>
+      <img src="My Image.jpg" height="400" width="250" alt="this is my photo">
+      <p>I am a Passionate Web Developer with a focus on front-end technologies</p>
+      <p>I am a Graduate in B.Tech from Sree Chaitanya Institute of Technological Sciences,Karimnagar</p>
+      <p>I have learnt Web Development</p>
+      <p>You can<strong>click here</strong> to checkout what I have learnt in HTML,CSS,JavaScript </p>
+        </section>
+
+      <section id="Skills">
+        <h1>My Skills</h1>
+      <ol>
+        <li>Python</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ol>
+      </section>
+      <section id="Projects">
+        <h1>My Projects</h1>
+        <table border="1">
+            <tr>
+                <th>project</th>
+                <th>Description</th>
+            </tr>
+            <tr>
+                <td>Portfolio Website</td>
+                <td>I have built a Portfolio website by using HTML,CSS,Javascript</td>
+            </tr>
+            <tr>
+                <td>Simple Python Calculator</td>
+                <td>I have built a Simple Calculator using Python</td>
+            </tr>
+        </table>
+      </section>
+      <section id="Contact">
+        <h1>Contact Me</h1>
+        <p>Feel free to get in touch with me using below form</p>
+        <form>
+            <!--creating a text input for username-->
+            <label for="Username"><b>Username:</b></label>
+            <input type="text" id="Username" name="Username" placeholder="Enter Username" minlength="5" maxlength="10" required >
+            <br>
+            <!--creating form validation with email-->
+            <label for="email"><b>Email: &nbsp;&nbsp; </b> </label>
+            <input type="email" placeholder="Enter your Email" required><br>
+            <input type="radio" id="maleradio" name="Gender" value="male">
+            <label for="maleradio">male</label>
+            <input type="radio" id="femaleradio" name="Gender" value="female">
+            <label for="femaleradio">female</label><br>
+            <!--creating a checkbox for programming languages-->
+             <label><b>Select your Intrests</b></label>
+             <br>
+            <input type="checkbox" id="coding" name="coding" value="Coding">
+            <label for="C">Coding</label>
+            <input type="checkbox" id="reading" name="reading" value="reading">
+            <label for="reading">Reading</label><br>
+            <label for="bio">Bio (upto 200 Characters)</label> 
+            <input type="text" id="bio" name="bio" ><br><br>
+            <button class="buttonsubmit">Submit</button>
+      </section>
+
+      
+
+    </main>
+
+    <footer>
+       
+        <p> @Surya's Portfolio</p>
+
+    </footer>
+    
+</body>
+</html>
